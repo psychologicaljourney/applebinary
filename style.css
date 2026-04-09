@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: PixelMPlus12;
-    src: url('/assets/fonts/pixelmplus12-regular-webfont.woff2') format('woff2');
+    src: url('./assets/fonts/pixelmplus12-regular-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
