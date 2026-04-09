@@ -1,0 +1,63 @@
+
+@font-face {
+    font-family: PixelMPlus12;
+    src: url('../assets/fonts/pixelmplus12-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body{
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+}
+
+
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+#center{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+}
+
+textarea{
+    resize: none;
+}
+
+#actual-stuff{
+    text-align: center;
+}
+
+.index-text-title{
+    font-family: PixelMPlus12;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 0.2px #fff, 0 0 12px #4269b8, 0 0 50px #4269b8;
+}
+
+
+.index-button{
+    font-family: PixelMPlus12;
+    color: #7bcaf4;
+
+    
+    font-size: 40px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow:
+    0 0 10px rgba(153, 237, 255, 0.9),
+    0 0 20px rgba(153, 237, 255, 0.7),
+    0 0 40px rgba(0, 183, 235, 0.4);
+
+    margin-left: 50%;
+    transform: translate(-50%, 10%);
+    
+    border: solid 0px #ebf3ff79;
+    box-shadow: 0px 0px 10px 10px #4269b863;
+    mix-blend-mode: soft-light;
+}
